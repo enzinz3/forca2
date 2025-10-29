@@ -1,27 +1,28 @@
 const words = [
-  { word: "abacaxi", clue: "Fruta tropical" },
-  { word: "elefante", clue: "Animal de grande porte com tromba longa" },
-  { word: "computador", clue: "Dispositivo eletrônico" },
-  { word: "girafa", clue: "Animal alto, com pescoço longo" },
-  { word: "chocolate", clue: "Doce feito de cacau" },
-  { word: "piano", clue: "Instrumento musical com teclas" },
-  { word: "tigre", clue: "Felino selvagem" },
-  { word: "esmeralda", clue: "Tipo de pedra preciosa" },
-  { word: "navio", clue: "Embarcação no mar" },
-  { word: "telefone", clue: "Dispositivo de comunicação" },
-  { word: "floresta", clue: "Área com muitas árvores" },
-  { word: "quadrado", clue: "Figura geométrica de quatro lados" },
+  { word: "Bugatti", clue: "carro recordista de velocidade" },
+  { word: "chimpanze", clue: "animal capaz de realizar taticas de caça" },
+  { word: "notebook", clue: "Dispositivo eletrônico" },
+  { word: "BYD", clue: "carro capaz de pular e dançar" },
+  { word: "kawasaki", clue: "marca de motos famosa" },
+  { word: "guitarra", clue: "Instrumento musical com cordas" },
+  { word: "cheeta", clue: "felino mais rápido do planeta" },
+  { word: "Ford", clue: "marca que ganhou da Ferrari em, LeMans" },
+  { word: "titanic", clue: "Embarcação famosa que afundou" },
+  { word: "Rádio", clue: "Dispositivo de comunicação" },
+  { word: "subaru", clue: "uma das maiores vencedoras de rally" },
+  { word: "cigarro", clue: "da câncer" },
   { word: "foguete", clue: "Veículo espacial" },
-  { word: "sorvete", clue: "Doce gelado" },
-  { word: "bicicleta", clue: "Veículo de duas rodas" },
+  { word: "viniciusjr", clue: "namorado da virginia" },
+  { word: "mclarenf1", clue: "Veículo aspirado mais rápido do mundo" },
   { word: "avião", clue: "Meio de transporte aéreo" },
-  { word: "macaco", clue: "Primate arbóreo" },
+  { word: "Russia", clue: "maior país do mundo" },
   { word: "raios", clue: "Descargas elétricas na atmosfera" },
   { word: "montanha", clue: "Elevação natural da terra" },
-  { word: "vela", clue: "Objeto para iluminação" },
+  { word: "Ayrton Senna", clue: "O melhor piloto de f1 de todos os tempos" },
 ];
 
 export default function getWord() {
   const index = Math.floor(Math.random() * words.length);
   return words[index];
 }
+
